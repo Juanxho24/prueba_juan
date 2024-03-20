@@ -39,17 +39,15 @@
                             El usuario tiene que ser de 12 a 20 dígitos y solo puede contener letras</p>
                 </div>
 
-                
                 <!-- div para capturar la edad -->
 
                 <div class="formulario__grupo-input" id="grupo__edad">
                     <label for="edad" class="formulario__label">Edad *</label>
-                        <div class="formulario__grupo-input">
-                            <input type="text" class="formulario__input" onkeyup="mayus(this);" name="edad" id="edad" placeholder="Edad">
-                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
-                        </div>
-                        <p class="formulario__input-error">
-                            El usuario tiene que ser de 12 a 20 dígitos y solo puede contener letras</p>
+                    <div class="formulario__grupo-input">
+                        <input onkeyup="minus(this);" type="edad" class="formulario__input" name="edad" id="edad" placeholder="Edad">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">La Edad solo puede contener numeros.</p>
                 </div>
 
 
