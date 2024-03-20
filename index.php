@@ -24,7 +24,7 @@
    <div><i class="fa fa-align-center" aria-hidden="true"><h1>PARQUE DE DIVERSIONES</h1></i></div>  
 
    <main>
-        <form method="POST" autocomplete="off" class="formulario" id="formulario">
+        <form method="POST" autocomplete="off" class="formulario" id="formulario" action="datos.php">
             
 
                 <!-- div para capturar el nombre -->
